@@ -1,0 +1,246 @@
+            .top-li-style {
+                list-style: none;
+            }
+
+            .before-header a {
+                text-decoration: none;
+                color: white;
+            }
+
+            .top-li-style li {
+                margin-right: 10px;
+            }
+
+            .top-li-style li:last-child {
+                margin-right: initial;
+            }
+
+            .company-header {
+                color: #083791;
+            }
+
+            .brand-name {
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            .brand-text {
+                font-size: 11px;
+            }
+
+            .nav-menu {
+                list-style: none;
+            }
+
+            .nav-menu a {
+                text-decoration: none;
+                color: #083791;
+            }
+
+            .nav-menu li {
+                margin-right: 20px;
+            }
+
+            .nav-menu li:last-child {
+                margin-right: initial;
+            }
+
+            .mycard-design {
+                margin-bottom: 150px;
+            }
+
+            .mycard {
+                flex: 1;
+            }
+
+            .mycard-header {
+                color: #083791;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+
+            .mycard-img {
+                object-fit: cover;
+                object-position: top;
+            }
+
+            .mycard-body {
+                margin-bottom: 10px;
+
+            }
+
+            .mycard-footer button {
+                text-decoration: none;
+                color: #083791;
+            }
+
+
+            .mycontainer {
+                background-image: url('./image/bgimage3.jpg');
+                height: 60vh;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-bottom: 70px;
+            }
+
+            .mycontainer-bg-color {
+                background-image: linear-gradient(to right, rgba(1, 217, 255, 0.583), rgba(5, 5, 245, 0.674));
+                height: 60vh;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .department-container {
+                background-image: url('./image/bg-card2.png');
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                color: white;
+                border: 2px solid black;
+                transform: translateY(-20%);
+
+            }
+
+            .department-container ol {
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .department-container ol li {
+                margin-bottom: 10px;
+            }
+
+            .department-container a {
+                color: white;
+                text-decoration: none;
+            }
+
+
+
+            .team-details {
+                padding: 20px;
+                background-color: #083791;
+                color: white;
+                height: 60vh;
+                font-weight: bold;
+                padding-top: 40px;
+                padding-bottom: 0px;
+            }
+
+            .doctor-one {
+                background-image: url('./image/doctor-1.jpg');
+                height: 35vh;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 25%;
+            }
+
+            .doctor-two {
+                background-image: url('./image/doctor-2.webp');
+                height: 35vh;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 25%;
+            }
+
+            .doctor-three {
+                background-image: url('./image/doctor-3.jpg');
+                height: 35vh;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 25%;
+            }
+
+            .doctor-four {
+                background-image: url('./image/doctor-4.webp');
+                height: 35vh;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 25%;
+            }
+
+            .doctors-container {
+                padding-top: 50px;
+            }
+
+            .doctor-hover {
+                background-image: linear-gradient(to bottom, #71cbffda, #7395d5da);
+                background-size: cover;
+                background-repeat: no-repeat;
+                opacity: 0;
+                transition: opacity 0.3s;
+            }
+
+            .doctor-hover:hover {
+                opacity: 1;
+            }
+
+            .doctor-details-hide span:hover {
+                background-color: #ff8e32;
+                cursor: pointer;
+            }
+
+            .doctor-details-hide span {
+                background-color: #083791;
+                transition: all 0.4s;
+            }
+
+            .hospital-rating {
+                margin-top: 80px;
+                margin-bottom: 80px;
+                text-align: center;
+            }
+
+            .hospital-rating p {
+                font-weight: bold;
+
+            }
+
+            .faq-container {
+                background-image: url('./image/faq-image.webp');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .faq-container>div {
+                padding: 80px 0px;
+            }
+
+            .blog-card-date {
+                transform: translateY(-30%);
+            }
+
+            .blog-container {
+                margin: 150px 0px;
+            }
+
+            .contact-container {
+                margin: 100px 0px;
+            }
+
+            .contact-us-p p {
+                color: white;
+                margin: 0px;
+                font-size: 14px;
+            }
+
+            .footer-li li {
+                font-size: 12px;
+                margin-bottom: 7px;
+            }
+
+            .footer-container {
+                padding-bottom: 40px;
+                border-bottom: 1px solid gray;
+            }
+
+            .footer-logo span {
+                display: inline-block;
+                padding: 0px 5px;
+                border: 1px solid gray;
+                border-radius: 20px;
+            }
